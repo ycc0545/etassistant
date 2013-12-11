@@ -1,0 +1,26 @@
+.cart_list_allprice
+{
+	padding:1em;
+	text-align:right;
+	color:#666;
+}
+.cart_list_delete
+{
+	position:absolute;
+	left:8.5em;
+	top:-0.25em;
+	display:inline-block;
+	width:1.8em;
+	height:1.8em;
+	-webkit-background-size:100% 100%;
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-image:url(../img/delete.png);
+}
+.cart_list_num_in
+{
+	 width:2.7em;;
+	 color:#666;
+	 padding: 0 .25em;
+}

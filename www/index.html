@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html id="ycchtml">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, 
+	target-densityDpi=device-dpi" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>银行快车导游</title>
+    <link rel="stylesheet" type="text/css" href="css/ui-media.css" />
+    
+    <link rel="stylesheet" type="text/css" href="css/cart.css" />
+    <link rel="stylesheet" type="text/css" href="css/detail.css" />
+    <link rel="stylesheet" type="text/css" href="css/form_table.css" />
+    <link rel="stylesheet" type="text/css" href="css/icon.css" />
+    <link rel="stylesheet" type="text/css" href="css/list.css" />
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/page.css" />
+    <link rel="stylesheet" type="text/css" href="css/user.css" />
+    <link rel="stylesheet" type="text/css" href="css/widget.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+	
+	<link href="css/mobiscroll.core.css" rel="stylesheet" type="text/css" />
+    <link href="css/mobiscroll.android.css" rel="stylesheet" type="text/css" />
+    <link href="css/mobiscroll.android-ics.css" rel="stylesheet" type="text/css" />
+    <link href="css/mobiscroll.ios.css" rel="stylesheet" type="text/css" />
+    <link href="css/mobiscroll.sense-ui.css" rel="stylesheet" type="text/css" />
+	
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/js_extend.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/zepto.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/json2.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/base64.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/touchwipe.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/tabwipe.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/var_ycc.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/iscroll.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/tools_ycc.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/widgets_ycc.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/json2.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/mainmenu.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/base64.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/app_ycc.js"></script>
+	<style>
+		.wipe-list{ position:relative; overflow:hidden; height:12em; width:100%;}
+	    .wipe-list-ulx .gcdt-each div {height:12em;}
+	    .wipe-list-ul{ width:10000px; position:absolute; left:0px; top:0px; }
+	    .wipe-list-ul li{float:left; list-style:none;}
+	    .wipe-list-ul li img{ height:12em; width:100%; }
+	    .gcdt-list-cur {overflow:hidden; margin-bottom:1.5em; width:100%;}
+	    .gcdt-list-cur div{ width:0%; height:.45em; background:#ccc; float:left;}
+	    .gcdt-list-cur div.cur{ background:#7cb600;}
+	</style>
+</head>
+<body onload="onLoad()">
+    <div class="frame bg_gra">
+        <div  id="container" class="page_container">
+        	<div id="map" style="width:0; height:0;"></div>
+			<div id="my_toast" class="my_toast"></div>
+			<div id="zhezhao" class="zhezhao">
+				<div id="zhezhao_list01" class="zhezhao_list01 zhezhao_list"></div>
+				<div id="zhezhao_list02" class="zhezhao_list02 zhezhao_list"></div>
+				<div id="zhezhao_list03" class="zhezhao_list03 zhezhao_list"></div>
+			</div>
+            <div id="page1" class="transition page stage_center bg_blue">
+            	<div class="login_wrap">
+					<div><input type="text" placeholder="请填写账号" class="form_in" /></div>
+					<div><input type="password" placeholder="请填写密码" class="form_in" /></div>
+					<div id="login_submit" class="ycc_btn01">登录</div>
+				</div>
+            </div>
+            <div id="page2" class="transition page stage_right"></div>
+			<div id="page3" class="transition page stage_right"></div>
+            <div id="page4" class="transition page stage_right"></div>
+        </div>
+    </div>
+</body>
+</html>

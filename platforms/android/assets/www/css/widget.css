@@ -1,0 +1,105 @@
+.my_toast {
+    position:absolute;
+    top:33%;
+    left:30%;
+    background:rgba(0,0,0,0.55);
+    z-index:9999;
+    width:40%;
+    padding:.6em 0;
+    text-align:center;
+    color:#eee;
+    font-size:1em;
+    border-radius: .3em;
+    display:none;
+}
+
+.my_toast_loading 
+{
+	margin:0 auto;
+	display:none;
+}
+
+.my_toast_text 
+{
+}
+
+.label
+{
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	color:#fff;
+	padding: 0.26em 0;
+	font-weight:bold;
+	background-color: #f22e2e;
+	display: inline-block;
+    font-size: .9em;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+    width:4.5em;
+    height:1.55em;
+    line-height:1.55em;
+}
+
+.label_btn
+{
+	background-color: #e59805;
+}
+.label_btn_on
+{
+	background-color: #d68d01;
+}
+.label_selected
+{
+  background-color: #bbb;
+}
+.label_important
+{
+  background-color: #b94a48;
+}
+.label_important[href]
+{
+  background-color: #953b39;
+}
+.label_warning
+{
+  background-color: #f89406;
+}
+.label_warning[href]
+{
+  background-color: #c67605;
+}
+.label_success
+{
+  background-color: #73a703;
+}
+.label_success[href]
+{
+  background-color: #356635;
+}
+.label_info
+{
+  background-color: #3a87ad;
+}
+.label_info[href]
+{
+  background-color: #2d6987;
+}
+.label_inverse
+{
+  background-color: #333333;
+}
+
+.alert {
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: .3em;
+    margin: .8em;
+    padding: 1em;
+}
+
+.alert_warning {
+	background-color: #F2DEDE;
+    border-color: #EED3D7;
+    color: #B94A48;
+}

@@ -1,0 +1,163 @@
+.list01_item
+{
+	border-bottom:1px solid #ccc;
+	list-style:none;
+	padding:.5em 0;
+	color:#666;
+	width:100%;
+}
+
+.list01_item_l, .list01_item_r
+{
+	float:left;
+	height:5.5em;
+}
+.list01_item_l
+{
+	width:38%;
+	overflow:hidden;
+}
+.list01_item_r
+{
+	width:62%;
+}
+.list01_item_l_img
+{
+	width:87%;
+	height:4.8em;
+	margin-left:.38em;
+	padding:.22em;
+	border:1px solid #bbb;
+}
+.list01_item_r_title
+{
+	font-size:1em;
+	font-weight:bold;
+	margin-left:.45em;
+}
+.list01_item_r_zhaiyao
+{
+	margin-top:.4em;
+	height:2.85em;
+	font-size:.9em;
+	margin-left:.45em;
+}
+.list01_item_r_other
+{
+	font-size:.9em;
+	margin-left:.45em;
+}
+.list01_item_search
+{
+	list-style:none;
+	background-color:#e1dfdf;
+}
+.list01_item_search_in {
+	margin:.8em 3%;
+	border:0px;
+	padding: .35em .3em;
+	height:1.3em;
+	line-height: 1.3em;
+	text-decoration: none;
+	font-size: 1em;
+	-webkit-border-radius: .8em;
+	border-radius: .8em; 
+	width:63%;
+	-webkit-box-shadow:5px 5px 5px #bbb inset;
+}
+
+.load_more_wrap
+{
+	display:none;
+}
+.load_more
+{
+	text-align:center;
+	color:#777;
+	height:3.4em;
+	line-height:3.4em;
+	background-color:#fff;
+}
+.order_list_item
+{
+	border-bottom:1px solid #ccc;
+	padding:.5em 0;
+	color:#777;
+	width:100%;
+	height:5em;
+}
+.order_list_item01
+{
+	float:left;
+	height:4.6em;
+	line-height:4.6em;
+	width:27%;
+	text-align:center;
+}
+.order_list_item02
+{
+	float:left;
+	height:100%;
+	width:65%;
+}
+.order_list_item02_onum
+{
+	font-weight:bold;
+	line-height:1.9em;
+}
+.order_list_item02_date, .order_list_item02_price
+{
+	font-size:.9em;
+	line-height:1.55em;
+}
+.order_list_item03
+{
+	float:right;
+	height:4.6em;
+	text-align:center;
+	width:8%;
+}
+.order_list_item03_arrow
+{
+	width:.75em;
+	height:.95em;
+	margin-top:1.8em;
+	background-image:url(../img/arrow.png);
+	-webkit-background-size:100% 100%;
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.liuyanliebiao_item, .liuyanliebiao_item_admin
+{
+	margin:.8em; 
+	padding:.45em; 
+	color:#777;
+	-webkit-border-radius: .5em;
+	border-radius: .5em;
+	border:1px solid #d4d4d4;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+}
+.liuyanliebiao_item
+{
+	margin-top:1.3em;
+}
+.liuyanliebiao_item_admin
+{
+	margin-left:3em;
+}
+.liuyanliebiao_uname
+{
+	font-size:1.2em;
+}
+.liuyanliebiao_date
+{
+	float:right;
+	font-size:1.1em;
+}
+.liuyanliebiao_content
+{
+	margin-top:.45em;
+	font-size:1em;
+}

@@ -1,0 +1,105 @@
+.login_top { width:.1em;; height:42%; }
+.login_group{ width:100%; margin-bottom:1em; }
+.remember_label
+{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+.remember_input
+{
+	padding:.3em;
+	margin-left:30%;
+	width:2.2em;
+	height:2.2em;
+}
+.login_btn
+{ 
+	width:36%;
+	height:2.3em;
+	line-height:2.3em;
+	text-align:center;
+	margin-left:30%;
+	color:#fff;
+	background-image:url(../img/login_btn01.png);
+	-webkit-background-size:100% 100%;
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.user_top01
+{
+	color:#777;
+	height:5.4em;
+	width:100%;
+	padding:.65em .5em;
+}
+.user_top01_l, .user_top01_r
+{
+	float:left;
+	height:5.4em;
+}
+.user_top01_l_img
+{
+	width:6.6em;
+	height:5.4em;
+	margin-right:.5em;
+}
+.user_top02
+{
+	color:#777;
+	width:100%;
+	height:2.8em;
+	background-color:#f6f6f6;
+	border-top:1px #c8c8c8 solid;
+	border-bottom:1px #c8c8c8 solid;
+}
+.user_top0201, .user_top0202
+{
+	float:left;
+	height:2.8em;
+	width:33%;
+}
+.user_top0203
+{
+	float:left;
+	height:2.8em;
+	width:34%;
+}
+.user_top02_icon
+{
+	float:left;
+	-webkit-background-size:100% 100%;
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	width:1.4em;
+	height:1.26em;
+	margin-left:.25em;
+	margin-top:.8em;
+	margin-right:.15em;
+}
+.user_top0201_icon
+{
+	background-image:url(../img/xiao04.png);
+}
+.user_top0202_icon
+{
+	background-image:url(../img/xiao05.png);
+}
+.user_top0203_icon
+{
+	background-image:url(../img/xiao06.png);
+}
+.user_top02_text
+{
+	float:left;
+	line-height:2.8em;
+}
+
+
+
+.login_wrap
+{
+	padding-top:8em;
+}

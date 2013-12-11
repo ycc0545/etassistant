@@ -1,0 +1,33 @@
+.uhide { display:none; }
+.bg_wh {background-color:#fff;}
+.bg_gra {background-color:#efefef;}
+.bg_blue { background-color:#09b0e1;}
+.bg_blue02 { background-color:#0298c4;}
+.in_bg_gra {background-color:#e8e7e7;}
+.c_wh {color:#eee;}
+.c_gra {color:#777;}
+.bg_gra01{ background-color:#e7e6e6; }
+.bg_green01 { background-color:#7cb600; color:#ffffff;}
+.bg_tocart_on { background-color:#699a00; }
+.mt_07 { margin-top: .7em; }
+body
+{
+    font-family: helvetica neue;
+    background-color: #666;
+}
+a
+{
+	text-decoration:none;
+	color:#666;
+}
+body,ul,li
+{
+	padding:0;
+	margin:0;
+	border:0;
+}
+.fenge01
+{
+	background: url(../img/fenge.png) no-repeat;
+	-webkit-background-size:100% .32em;
+}

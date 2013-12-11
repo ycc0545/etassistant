@@ -1,0 +1,83 @@
+.my_toast {
+    position:absolute;
+    top:33%;
+    left:32%;
+    background:rgba(0,0,0,0.55);
+    z-index:9999;
+    width:37%;
+    padding:.6em;
+    text-align:center;
+    color:#eee;
+    font-size:1em;
+    border-radius: .3em;
+    display:none;
+}
+
+.label
+{
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	color:#fff;
+	padding: 0.26em 0;
+	font-weight:bold;
+	background-color: #aaa;
+	display: inline-block;
+    font-size: .9em;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+    width:4.5em;
+    height:1.55em;
+    line-height:1.55em;
+}
+
+.label-important
+{
+  background-color: #b94a48;
+}
+.label-important[href]
+{
+  background-color: #953b39;
+}
+.label-warning
+{
+  background-color: #f89406;
+}
+.label-warning[href]
+{
+  background-color: #c67605;
+}
+.label-success
+{
+  background-color: #73a703;
+}
+.label-success[href]
+{
+  background-color: #356635;
+}
+.label-info
+{
+  background-color: #3a87ad;
+}
+.label-info[href]
+{
+  background-color: #2d6987;
+}
+.label-inverse
+{
+  background-color: #333333;
+}
+
+.alert {
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: .3em;
+    margin: .8em;
+    padding: 1em;
+}
+
+.alert_warning {
+	background-color: #F2DEDE;
+    border-color: #EED3D7;
+    color: #B94A48;
+}

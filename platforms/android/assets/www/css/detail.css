@@ -1,0 +1,153 @@
+.caipin_detail_img
+{
+	width:100%;
+	height:12.2em;
+	-webkit-background-size:100% 100%;
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.detail_wrap
+{
+	color:#666;
+	background-color:#ececec;
+}
+
+.detail_title
+{
+	height:2.5em;
+	line-height:2.5em;
+	font-size:1.2em;
+	padding-left:.5em;
+}
+
+.detail_des
+{
+	padding:.5em 0;
+	color:#7ab202;
+	padding-left:.5em;
+}
+
+.detail_hesuan
+{
+	padding:.8em 0;
+	padding-left:.5em;
+}
+
+.detail_com01
+{
+	height:2.6em;
+}
+
+.detail_shoucang, .detail_liulan, .detail_baozhiqi, .detail_buynum
+{
+	float:left;
+	position:relative;
+	padding-left:1.8em;
+	font-size:.9em;
+	width:7.6em;
+	padding-top:.9em;
+}
+
+.detail_com01_icon
+{
+	position:absolute;
+	-webkit-background-size:100% 100%;
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	width:1em;
+	height:1em;
+	left:.5em;
+	top:.9em;
+}
+
+.detail_baozhiqi_icon
+{
+	background-image:url(../img/xiao07.png);
+}
+
+.detail_buynum_icon, .detail_liulan_icon
+{
+	background-image:url(../img/xiao08.png);
+}
+
+.detail_shoucang_icon
+{
+	background-image:url(../img/xiao07.png);
+}
+
+.detail_zhuliao, .detail_peiliao
+{
+	padding-top:.5em;
+	padding-left:.5em;
+}
+
+.detail_zhuliao01, .detail_peiliao01
+{
+	font-size:1em;
+}
+
+.detail_zhuliao02, .detail_peiliao02
+{
+	font-size:.9em;
+}
+
+.detail_zhizuo01, .detail_miaoshu01
+{
+	padding-top:.5em;
+	padding-left:.5em;
+	font-size:1em;
+}
+
+.detail_zhizuo02, .detail_miaoshu02
+{
+	padding-top:.5em;
+	padding-left:.5em;
+	font-size:.9em;
+}
+
+.chanpin_detail_img
+{
+	width:100%;
+	height:15em;
+	-webkit-background-size:100% 100%;
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.chanpin_detail_f {
+	position:absolute; z-index:8;
+	bottom:0; left:0;
+	width:100%;
+	height:2.7em;
+	line-height:2.7em;
+	padding:0;
+	margin:0;
+	background-image:url(../img/header_bg.png);
+	-webkit-background-size:100% 100%;
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	color:#fff;
+	display:none;
+}
+.chanpin_detail_fprice
+{
+	float:left;
+	height:2.7em;
+	width: 55%;
+	padding-left:.5em;
+	font-size:1.2em;
+}
+.chanpin_detail_ftocart
+{
+	float:right;
+	width:40%;
+	height:2.7em;
+	text-align:center;
+	background-color:#73a801;
+	font-size:1.2em;
+}
